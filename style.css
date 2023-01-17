@@ -1,8 +1,52 @@
-#title {
-    color: greenyellow;
-    background-color: #000000;
-    padding: 0.8rem;
-    border-radius: 1000vmax;
-    font-size: 1.5rem;
-    text-align: center;
+/* font familes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* font colors */
+    --title-text: #201f1f;
+
+    /* font sizes */
+    --title: 2rem;
+    --subtitle: 1.7rem;
+    --normal: 1.35rem;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1c1c1c;
+    color: #edeeef;
+}
+
+.link-container {
+    margin-left: auto;
+}
+
+.brand-name {
+    font-size: var(--normal);
+    font-weight: 500;
+}
+
+.nav-link {
+    margin-inline-end: 5px;
+    font-size: 1rem;
 }
